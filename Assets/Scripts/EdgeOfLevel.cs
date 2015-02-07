@@ -3,6 +3,11 @@ using System.Collections;
 
 public class EdgeOfLevel : MonoBehaviour {
 
+    void Start()
+    {
+        gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius;
+    }
+
     void OnTriggerExit2D(Collider2D coll)
     {
         if (coll.transform.tag.Equals("Ball"))

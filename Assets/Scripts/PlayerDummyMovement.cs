@@ -19,6 +19,7 @@ public class PlayerDummyMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+        DesiredDistanceFromCenter = GameLogic.Radius;
         switch (player)
         {
             case Player.Player1:
@@ -86,20 +87,26 @@ public class PlayerDummyMovement : MonoBehaviour {
         //print("Target: " + targetAngle + ", current: " + currentAngle);
         //print("Target: " + targetPos + ", current: " + currentPos);
 
-        if (ActiveInput(h))
-        {
-            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), 10 * Time.deltaTime * h * MovementSpeed);
+        //if (ActiveInput(h))
+        //{
+        //    transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), 10 * Time.deltaTime * h * MovementSpeed);
 
-        }
+        //}
         
         Vector3.Lerp(transform.position, lookVectorNormal * DesiredDistanceFromCenter, 1 * Time.deltaTime);
 
         if (Input.GetButtonDown(prefix + "Fire"))
         {
-            print(prefix);
+           
             GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
             b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
             b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+        }
+
+        var lt = Input.GetAxis(prefix + "LT");
+        if (ActiveInput(lt))
+        {
+            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), 10 * Time.deltaTime * lt * MovementSpeed);
         }
 	}
 

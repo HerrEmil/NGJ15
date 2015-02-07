@@ -6,6 +6,7 @@ public class GameLogic : MonoBehaviour {
 
 	private static List<GameObject> Boxes;
 	private SoundController SoundController;
+    public static float Radius = 6f;
 
 	// Use this for initialization
 	void Start () 
