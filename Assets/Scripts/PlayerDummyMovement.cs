@@ -19,6 +19,7 @@ public class PlayerDummyMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+        DesiredDistanceFromCenter = GameLogic.Radius;
         switch (player)
         {
             case Player.Player1:
