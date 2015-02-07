@@ -41,7 +41,7 @@ public class SoundController : MonoBehaviour {
 		{
 			MusicClips[clipNumber].Stop();
 
-			CurrentlyPlayingMusicClip = null;
+			CurrentlyPlayingMusicClip = -1;
 		}
 	}
 
@@ -63,7 +63,7 @@ public class SoundController : MonoBehaviour {
 		{
 			SoundClips[clipNumber].Stop();
 
-			CurrentlyPlayingSoundClip = null;
+			CurrentlyPlayingSoundClip = -1;
 		}
 	}
 
