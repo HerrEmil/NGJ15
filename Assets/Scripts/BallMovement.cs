@@ -12,7 +12,8 @@ public class BallMovement : MonoBehaviour {
     void Start()
     {
         // Give the ball some initial movement direction
-        rigidbody2D.velocity = Vector2.one.normalized * speed;
+       // SetInitialVelocity(Vector2.one);
+        
     }
 	
 	// Update is called once per frame
@@ -27,6 +28,11 @@ public class BallMovement : MonoBehaviour {
         }
         checkTimer -= Time.deltaTime;
 	}
+
+    public void SetInitialVelocity(Vector2 direction)
+    {
+        rigidbody2D.velocity = direction.normalized * speed;
+    }
 
     void OnCollisionEnter2D(Collision2D col)
     {
