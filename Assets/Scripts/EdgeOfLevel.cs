@@ -9,7 +9,7 @@ public class EdgeOfLevel : MonoBehaviour {
         {
             int playerId = coll.gameObject.GetComponent<BallScript>().PlayerId;
             ResetSelectedHexagons(playerId);
-            ResetBallPosition(playerId);
+            Destroy(coll.gameObject);
         }
     }
 
@@ -24,10 +24,5 @@ public class EdgeOfLevel : MonoBehaviour {
                 hexScript.ResetToNeutral();
             }
         }
-    }
-
-    private void ResetBallPosition(int playerId)
-    {
-        // reset the ball at the player position
     }
 }
