@@ -69,7 +69,7 @@ public class Hexagons : MonoBehaviour {
 
     void Destroyed()
     {
-		PowerupLogic.RunPowerup(transform.position);
+	//	PowerupLogic.RunPowerup(transform.position);
 
         Destroy(this.gameObject);
     }
