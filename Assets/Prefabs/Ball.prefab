@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69c78df627e5ba41a4ff97984124d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   maxSpeed: 10
   steadyBounce: {fileID: 6200000, guid: 4b8b46095bad4ed4a823d35b6896bbfb, type: 2}
 --- !u!212 &21280604
