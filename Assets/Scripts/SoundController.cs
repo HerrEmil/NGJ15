@@ -8,6 +8,9 @@ public class SoundController : MonoBehaviour {
 	public AudioSource[] MusicClips;
 	public AudioSource[] SoundClips;
 
+	private int CurrentlyPlayingMusicClip;
+	private int CurrentlyPlayingSoundClip;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -26,6 +29,8 @@ public class SoundController : MonoBehaviour {
 		if(clipNumber <= MusicClips.Length)
 		{
 			MusicClips[clipNumber].Play();
+
+			CurrentlyPlayingMusicClip = clipNumber;
 		}
 	}
 
@@ -35,6 +40,8 @@ public class SoundController : MonoBehaviour {
 		if(clipNumber <= MusicClips.Length)
 		{
 			MusicClips[clipNumber].Stop();
+
+			CurrentlyPlayingMusicClip = null;
 		}
 	}
 
@@ -44,6 +51,8 @@ public class SoundController : MonoBehaviour {
 		if(clipNumber <= SoundClips.Length)
 		{
 			SoundClips[clipNumber].Play();
+
+			CurrentlyPlayingSoundClip = clipNumber;
 		}
 	}
 
@@ -53,6 +62,8 @@ public class SoundController : MonoBehaviour {
 		if(clipNumber <= SoundClips.Length)
 		{
 			SoundClips[clipNumber].Stop();
+
+			CurrentlyPlayingSoundClip = null;
 		}
 	}
 
@@ -66,5 +77,15 @@ public class SoundController : MonoBehaviour {
 	public int GetNumSoundClips()
 	{
 		return SoundClips.Length;
+	}
+
+	public int GetCurrentlyPlayingMusicClip()
+	{
+		return CurrentlyPlayingMusicClip;
+	}
+
+	public int GetCurrentlyPlayingSoundClip()
+	{
+		return CurrentlyPlayingSoundClip;
 	}
 }
