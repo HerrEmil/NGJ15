@@ -5,15 +5,21 @@ public class EdgeOfLevel : MonoBehaviour {
 
     void Start()
     {
-        gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius;
+        gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius + 0.5f;
     }
 
     void OnTriggerExit2D(Collider2D coll)
     {
         if (coll.transform.tag.Equals("Ball"))
         {
-            int playerId = coll.gameObject.GetComponent<BallScript>().PlayerId;
-            ResetSelectedHexagons(playerId);
+            var bs = coll.gameObject.GetComponent<BallScript>();
+            int playerId = bs.PlayerId;
+            if (bs.playerScript.balls.Count == 1)
+            {
+                ResetSelectedHexagons(playerId);
+            }
+            bs.playerScript.balls.Remove(coll.gameObject);
+            
             Destroy(coll.gameObject);
         }
     }

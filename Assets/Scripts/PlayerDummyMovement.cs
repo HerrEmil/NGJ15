@@ -16,6 +16,11 @@ public class PlayerDummyMovement : MonoBehaviour {
     public Player player;
     private string prefix;
 
+    private float actualSpeed;
+    public float acceleration = 1;
+    public float topSpeed = 10;
+    private float direction;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -97,16 +102,37 @@ public class PlayerDummyMovement : MonoBehaviour {
 
         if (Input.GetButtonDown(prefix + "Fire"))
         {
-           
-            GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
-            b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
-            b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+            if (playerScript.GetNumberOfBalls() < playerScript.maxBalls)
+            {
+                GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
+                b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
+                b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+                playerScript.balls.Add(b);
+            }
         }
 
         var lt = Input.GetAxis(prefix + "LT");
         if (ActiveInput(lt))
         {
-            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), 10 * Time.deltaTime * lt * MovementSpeed);
+            direction = Mathf.Sign(lt);
+            actualSpeed += acceleration * Mathf.Abs(lt) * Time.deltaTime;
+            if (actualSpeed > topSpeed)
+            {
+                actualSpeed = topSpeed;
+            }
+            
+        }
+        else
+        {
+            actualSpeed -= 2 * acceleration * Time.deltaTime;
+        }
+        if (actualSpeed > 0)
+        {
+            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), Time.deltaTime * actualSpeed * direction);
+        }
+        else
+        {
+            actualSpeed = 0;
         }
 	}
 
