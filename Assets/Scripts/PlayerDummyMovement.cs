@@ -11,6 +11,8 @@ public class PlayerDummyMovement : MonoBehaviour {
     public GameObject ball;
     public Transform spawnBall;
 
+    public PlayerScript playerScript;
+
     public Player player;
     private string prefix;
 
@@ -54,8 +56,11 @@ public class PlayerDummyMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+        
 		float h = Input.GetAxis(prefix + "Horizontal");
 		//float v = Input.GetAxis(prefix + "Vertical");
+
+        
 
         if (ActiveInput(h))
         {
@@ -65,16 +70,18 @@ public class PlayerDummyMovement : MonoBehaviour {
         Vector3 lookVectorNormal = GetNormalVectorToCenter();
         Vector3.Lerp(transform.position, lookVectorNormal * DesiredDistanceFromCenter, 1 * Time.deltaTime);
 
-        if (Input.GetButton(prefix + "Fire"))
+        if (Input.GetButtonDown(prefix + "Fire"))
         {
+            print(prefix);
             GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
             b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
+            b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
         }
 	}
 
     private bool ActiveInput(float input)
     {
-        return input > 0.2f || input < -0.2f;
+        return input > 0.5f || input < -0.5f;
     }
 
     public void SetDesiredDistanceFromCenter(float distance)

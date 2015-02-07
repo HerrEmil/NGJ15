@@ -27,9 +27,10 @@ GameObject:
   - 114: {fileID: 11419506}
   - 50: {fileID: 5019506}
   - 61: {fileID: 6119506}
+  - 114: {fileID: 11400802}
   m_Layer: 8
   m_Name: PlayerObject
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +214,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119506}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
@@ -240,6 +241,20 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.46000004, y: .400000006}
   m_Center: {x: 0, y: 0}
+--- !u!114 &11400802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f005e94f61a564f42947fe5675c8edf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerId: 1
+  playerColor: {r: 1, g: 0, b: 0, a: 1}
+  pointsText: {fileID: 0}
 --- !u!114 &11419506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -257,6 +272,7 @@ MonoBehaviour:
   GravityForce: 0
   ball: {fileID: 153266, guid: 1f00222c510c68c43a35bb6e9483ea02, type: 2}
   spawnBall: {fileID: 422824}
+  playerScript: {fileID: 11400802}
   player: 0
 --- !u!114 &11419508
 MonoBehaviour:
