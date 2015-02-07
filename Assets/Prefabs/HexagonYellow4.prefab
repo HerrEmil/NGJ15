@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakingHits: 0
-  unbreakable: 0
+  unbreakable: 1
   pointsForDestroying: 1
 --- !u!212 &21249116
 SpriteRenderer:
