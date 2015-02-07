@@ -9,7 +9,7 @@ public class EdgeOfLevel : MonoBehaviour {
         {
             int playerId = coll.gameObject.GetComponent<BallScript>().PlayerId;
             ResetSelectedHexagons(playerId);
-            Destroy(coll);
+            Destroy(coll.gameObject);
         }
     }
 
