@@ -4,20 +4,25 @@ using System.Collections;
 public class Hexagons : MonoBehaviour {
 
     public int breakingHits;
-    public Color neutralColor;
     public bool unbreakable = false;
     public int pointsForDestroying = 1;
 
-    private int playerId = 0;
     private bool canDestory = false;
+    private Color neutralColor;
+
+    public int PlayerId { get; set; }
+
+    void Start()
+    {
+        PlayerId = 0;
+        neutralColor = GetComponent<SpriteRenderer>().color;
+    }
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        print("hit");
         if (coll.gameObject.tag == "Ball") {
-            print("hit by ball");
             var ballScript = coll.transform.GetComponent<BallScript>();
-            var ballID = ballScript.playerId;
+            var ballID = ballScript.PlayerId;
 
             if (breakingHits != 0) { 
                 breakingHits--;
@@ -28,17 +33,15 @@ public class Hexagons : MonoBehaviour {
                 canDestory = true;
             }
 
-            print(playerId + " : " + ballID);
-            if (playerId.Equals(ballID) && canDestory)
+            if (PlayerId.Equals(ballID) && canDestory)
             {
-                print("destroyed");
+                AddPointsToPlayer();
                 Destroyed();
             }
             else
             {
-                print("Add color");
-                playerId = ballID;
-                ChangeBoxColor(ballScript.playerColor);
+                PlayerId = ballID;
+                ChangeBoxColor(ballScript.PlayerColor);
             }
         }
     }
@@ -48,9 +51,10 @@ public class Hexagons : MonoBehaviour {
         
     }
 
-    void ResetToNeutral()
+    public void ResetToNeutral()
     {
         GetComponent<SpriteRenderer>().color = neutralColor;
+        PlayerId = 0;
     }
 
     void ChangeBoxColor(Color playerColor)
@@ -60,12 +64,19 @@ public class Hexagons : MonoBehaviour {
 
     void Destroyed()
     {
-        AddPointsToPlayer();
         Destroy(this.gameObject);
     }
 
     void AddPointsToPlayer()
     {
-        GameObject.FindGameObjectWithTag("Player" + playerId).GetComponent<PlayerScript>().IncreasePoints(pointsForDestroying);
+        GameObject player = GameObject.FindGameObjectWithTag("Player" + PlayerId);
+        if (player != null)
+        {
+            PlayerScript script = player.GetComponent<PlayerScript>();
+            if (script != null)
+            {
+                script.IncreasePoints(pointsForDestroying);
+            }
+        }
     }
 }

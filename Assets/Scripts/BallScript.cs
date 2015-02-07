@@ -3,6 +3,17 @@ using System.Collections;
 
 public class BallScript : MonoBehaviour {
 
-    public int playerId = 1;
-    public Color playerColor = Color.red;
+    public PlayerScript playerScript;
+
+    public int PlayerId { get; set; }
+    public Color PlayerColor { get; set; }
+
+    void Start()
+    {
+        //PlayerScript playerScript = player.GetComponent<PlayerScript>();
+        //if (playerScript != null) { 
+            PlayerId = playerScript.playerId;
+            PlayerColor = playerScript.playerColor;
+        //}
+    }
 }
