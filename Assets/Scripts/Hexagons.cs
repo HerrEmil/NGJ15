@@ -25,28 +25,33 @@ public class Hexagons : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "Ball") {
-            var ballScript = coll.transform.GetComponent<BallScript>();
-            var ballID = ballScript.PlayerId;
+        if (!unbreakable)
+        {
+            if (coll.gameObject.tag == "Ball")
+            {
+                var ballScript = coll.transform.GetComponent<BallScript>();
+                var ballID = ballScript.PlayerId;
 
-            if (breakingHits != 0) { 
-                breakingHits--;
-                BreakingSomeMore();
-            }
-            else
-            {
-                canDestory = true;
-            }
+                if (breakingHits != 0)
+                {
+                    breakingHits--;
+                    BreakingSomeMore();
+                }
+                else
+                {
+                    canDestory = true;
+                }
 
-            if (PlayerId.Equals(ballID) && canDestory)
-            {
-                AddPointsToPlayer();
-                Destroyed();
-            }
-            else
-            {
-                PlayerId = ballID;
-                ChangeBoxColor(ballScript.PlayerColor);
+                if (PlayerId.Equals(ballID) && canDestory)
+                {
+                    AddPointsToPlayer();
+                    Destroyed();
+                }
+                else
+                {
+                    PlayerId = ballID;
+                    ChangeBoxColor(ballScript.PlayerColor);
+                }
             }
         }
     }
