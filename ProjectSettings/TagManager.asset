@@ -4,6 +4,13 @@
 TagManager:
   tags:
   - 
+  - Ball
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  - Boxes
+  - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
