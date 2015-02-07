@@ -38,14 +38,14 @@ public class GameLogic : MonoBehaviour {
 
 	private void UpdateMusic()
 	{
-		if(GetBoxCount() < 50)
+		if(GetBoxCount() < 50 && SoundController.GetCurrentlyPlayingMusicClip == 0)
 		{
 			// Play more intense music
 			SoundController.StopMusicClip(0);
 			
 			SoundController.PlayMusicClip(1);
 		}
-		else if(GetBoxCount() < 20)
+		else if(GetBoxCount() < 20 && SoundController.GetCurrentlyPlayingMusicClip == 1)
 		{
 			// Play even more intense music
 			SoundController.StopMusicClip(1);
