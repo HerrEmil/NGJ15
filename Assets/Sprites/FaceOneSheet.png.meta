@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 387da3e41a2c23a43adb47ae0824d33a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FaceOneSheet_0
+    21300002: FaceOneSheet_1
+    21300004: FaceOneSheet_2
+    21300006: FaceOneSheet_3
+    21300008: FaceOneSheet_4
+    21300010: FaceOneSheet_5
+    21300012: FaceOneSheet_6
+    21300014: FaceOneSheet_7
+    21300016: FaceOneSheet_8
+    21300018: FaceOneSheet_9
+    21300020: FaceOneSheet_10
+    21300022: FaceOneSheet_11
+    21300024: FaceOneSheet_12
+    21300026: FaceOneSheet_13
+    21300028: FaceOneSheet_14
+    21300030: FaceOneSheet_15
+    21300032: FaceOneSheet_16
+    21300034: FaceOneSheet_17
+    21300036: FaceOneSheet_18
+    21300038: FaceOneSheet_19
+    21300040: FaceOneSheet_20
+    21300042: FaceOneSheet_21
+    21300044: FaceOneSheet_22
+    21300046: FaceOneSheet_23
+    21300048: FaceOneSheet_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: FaceOneSheet_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3299
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3299
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 3299
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 3299
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 3299
+        width: 718
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2480
+        width: 720
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2483
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2483
+        width: 720
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2480
+        width: 716
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 2483
+        width: 720
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1671
+        width: 715
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_11
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1671
+        width: 716
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1670
+        width: 715
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1670
+        width: 720
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 1668
+        width: 717
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 858
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 858
+        width: 718
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 853
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 853
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 852
+        width: 717
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 43
+        width: 715
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_21
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 43
+        width: 715
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 33
+        width: 716
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 32
+        width: 716
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceOneSheet_24
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 37
+        width: 717
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

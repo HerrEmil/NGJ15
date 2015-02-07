@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: a5960a775aa706b43b1a7a1d770ae4ca
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FaceTwoSheet_0
+    21300002: FaceTwoSheet_1
+    21300004: FaceTwoSheet_2
+    21300006: FaceTwoSheet_0
+    21300008: FaceTwoSheet_1
+    21300010: FaceTwoSheet_5
+    21300012: FaceTwoSheet_3
+    21300014: FaceTwoSheet_4
+    21300016: FaceTwoSheet_6
+    21300018: FaceTwoSheet_7
+    21300020: FaceTwoSheet_8
+    21300022: FaceTwoSheet_9
+    21300024: FaceTwoSheet_10
+    21300026: FaceTwoSheet_11
+    21300028: FaceTwoSheet_12
+    21300030: FaceTwoSheet_13
+    21300032: FaceTwoSheet_14
+    21300034: FaceTwoSheet_15
+    21300036: FaceTwoSheet_16
+    21300038: FaceTwoSheet_17
+    21300040: FaceTwoSheet_18
+    21300042: FaceTwoSheet_19
+    21300044: FaceTwoSheet_20
+    21300046: FaceTwoSheet_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: FaceTwoSheet_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3268
+        width: 734
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_1
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 3268
+        width: 736
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 3268
+        width: 732
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 3268
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2453
+        width: 732
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2453
+        width: 736
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2453
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 2453
+        width: 736
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 2453
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1638
+        width: 732
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1636
+        width: 736
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1638
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1636
+        width: 733
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1638
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 827
+        width: 732
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 827
+        width: 734
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 827
+        width: 733
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 827
+        width: 736
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 827
+        width: 733
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 736
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_20
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 15
+        width: 736
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FaceTwoSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 15
+        width: 736
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
