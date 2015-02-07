@@ -3,8 +3,8 @@ using System.Collections;
 
 public class BallMovement : MonoBehaviour {
 
-    public float speed = 5.0f;
-    public float maxSpeed = 10f;
+    public float speed = 4.0f;
+    public float maxSpeed = 8f;
     public PhysicsMaterial2D steadyBounce;
     private bool maxSpeedReached;
     private float checkTimer;
