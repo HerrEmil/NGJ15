@@ -31,26 +31,16 @@ public class PlayerDummyMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
-
-	void FixedUpdate()
+	void Update () 
 	{
 		float h = Input.GetAxis("Horizontal");
 		float v = Input.GetAxis("Vertical");
 
-		UpdateDistanceFromCenter();
-
-		Vector2 force = new Vector2(h,v);
-
-		this.rigidbody2D.AddForce(force * MovementSpeed);
+		transform.RotateAround(StageCenter.transform.position, new Vector3(0,0,1), 10*Time.deltaTime * h * MovementSpeed);
 	}
 
-	private void UpdateDistanceFromCenter()
+	void FixedUpdate()
 	{
-		Vector2 vector2dToCenter = new Vector2(GetNormalVectorToCenter().x, GetNormalVectorToCenter().y);
-		rigidbody2D.AddForce(vector2dToCenter * GravityForce);
 
 	}
 }

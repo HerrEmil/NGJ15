@@ -28,12 +28,13 @@ public class PlayerGroundCollider : MonoBehaviour {
 
 			Vector2 normalVector = (playerPosition-StageCenter2D).normalized;
 
-			this.transform.position = normalVector * DesiredDistanceFromCenter;
+			//this.transform.position = normalVector * DesiredDistanceFromCenter;
 		}
 
 		// Rotate to face stage center
 		if(StageCenter)
 		{
+			transform.RotateAround(StageCenter.transform.position,new Vector3(0,0,1),20.0f*Time.deltaTime);
 			// Get vector between the collider and center point
 			Vector3 CenterToColliderVector = this.transform.position - StageCenter.transform.position;
 			Debug.Log (CenterToColliderVector);
@@ -42,7 +43,7 @@ public class PlayerGroundCollider : MonoBehaviour {
 
 			RotationHolder.Set(normalVector.x,normalVector.y, normalVector.z, normalVector.z);
 
-			transform.rotation = RotationHolder;
+			//transform.rotation = RotationHolder;
 
 
 		}
