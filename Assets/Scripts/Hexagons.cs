@@ -10,12 +10,17 @@ public class Hexagons : MonoBehaviour {
     private bool canDestory = false;
     private Color neutralColor;
 
+	private PowerupLogic PowerupLogic;
+
     public int PlayerId { get; set; }
 
     void Start()
     {
         PlayerId = 0;
         neutralColor = GetComponent<SpriteRenderer>().color;
+
+		// Gets the powerup logic
+		PowerupLogic = GameObject.Find("GameLogic").GetComponent<PowerupLogic>();
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -64,6 +69,8 @@ public class Hexagons : MonoBehaviour {
 
     void Destroyed()
     {
+		PowerupLogic.RunPowerup(transform.position);
+
         Destroy(this.gameObject);
     }
 
