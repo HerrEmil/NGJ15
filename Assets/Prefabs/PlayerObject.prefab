@@ -270,7 +270,7 @@ MonoBehaviour:
   StageCenter: {fileID: 0}
   DesiredDistanceFromCenter: 8
   GravityForce: 0
-  ball: {fileID: 153266, guid: 1f00222c510c68c43a35bb6e9483ea02, type: 2}
+  ball: {fileID: 180604, guid: 9359392ccd4791541b81cec528d0dd92, type: 2}
   spawnBall: {fileID: 422824}
   playerScript: {fileID: 11400802}
   player: 0
