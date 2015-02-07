@@ -23,7 +23,7 @@ public class PowerupLogic : MonoBehaviour {
 		// If the chance to drop is calculate as true
 		if(WillDrop())
 		{
-			var t = Instantiate(Powerups[Random.Range(0,Powerups.Length-1)], position, Quaternion.identity) as Transform;
+			//var t = Instantiate(Powerups[Random.Range(0,Powerups.Length-1)], position, Quaternion.identity) as Transform;
 		}
 	}
 
