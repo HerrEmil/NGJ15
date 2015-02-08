@@ -1355,6 +1355,8 @@ MonoBehaviour:
   - {fileID: 92937551}
   - {fileID: 92937550}
   - {fileID: 92937549}
+  - {fileID: 92937563}
+  - {fileID: 92937562}
 --- !u!114 &92937561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,6 +1370,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NewLevelLoadDelay: 5
+  UseCountDown: 1
+  IsActive: 0
+  Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
+  Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
+  One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
+  Go: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
 --- !u!82 &92937562
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1378,7 +1386,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 13b95c4b265631c4185341dff7b1bd0a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1437,7 +1445,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 14e0077c1d139f74691e778583365c9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4782,7 +4790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1934b83553b536c45ba6fa10b8181ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakingHits: 0
+  breakingHits: 10
   pointsForDestroying: 5
 --- !u!95 &494194185
 Animator:
