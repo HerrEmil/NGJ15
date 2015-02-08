@@ -42,7 +42,7 @@ public class SoundController : MonoBehaviour {
 	// Starts a specific music clip
 	public void PlayMusicClip(int clipNumber)
 	{
-		if(clipNumber <= MusicClips.Length)
+		if(clipNumber < MusicClips.Length)
 		{
 			MusicClips[clipNumber].Play();
 
@@ -53,7 +53,7 @@ public class SoundController : MonoBehaviour {
 	// Stops a specific music clip
 	public void StopMusicClip(int clipNumber)
 	{
-		if(clipNumber <= MusicClips.Length)
+		if(clipNumber < MusicClips.Length)
 		{
 			MusicClips[clipNumber].Stop();
 
@@ -64,7 +64,7 @@ public class SoundController : MonoBehaviour {
 	// Starts a specific sound clip
 	public void PlaySoundClip(int clipNumber)
 	{
-		if(clipNumber <= SoundClips.Length)
+		if(clipNumber < SoundClips.Length)
 		{
 			SoundClips[clipNumber].Play();
 
@@ -75,7 +75,7 @@ public class SoundController : MonoBehaviour {
 	// Stops a specific sound clip
 	public void StopSoundClip(int clipNumber)
 	{
-		if(clipNumber <= SoundClips.Length)
+		if(clipNumber < SoundClips.Length)
 		{
 			SoundClips[clipNumber].Stop();
 

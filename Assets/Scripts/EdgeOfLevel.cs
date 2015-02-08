@@ -7,7 +7,7 @@ public class EdgeOfLevel : MonoBehaviour {
 
     void Start()
     {
-        gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius + 0.5f;
+      //  gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius + 0.5f;
 
 		SoundController = GameObject.Find ("GameLogic").GetComponent<SoundController>();
     }
