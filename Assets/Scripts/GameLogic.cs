@@ -8,12 +8,12 @@ public class GameLogic : MonoBehaviour {
 	private static List<GameObject> Boxes;
 	private SoundController SoundController;
     public static float Radius = 6f;
-	public float NewLevelLoadDelay = 5f;
+	public float NewLevelLoadDelay = 10f;
 
     public bool UseCountDown;
     public bool IsActive;
 
-    public GameObject Player1Text, Player2Text, Player3Text, Player4Text, Airball, Dropped, Fantastico, Hold, Mariachi, Siesta, Speedy, Survivor, Terrible;
+    public GameObject Player1Text, Player2Text, Player3Text, Player4Text, TextPositions;
 
     public GameObject Three, Two, One, Go;
 
@@ -74,6 +74,7 @@ public class GameLogic : MonoBehaviour {
 				SoundController.PlaySoundClip(16);
                 IsActive = true;
                 inst = Go;
+               
                 break;
         }
         GameObject go = Instantiate(inst, Vector3.zero, Quaternion.identity) as GameObject;
@@ -181,7 +182,77 @@ public class GameLogic : MonoBehaviour {
                 break;
         }
 
-        Instantiate(playerWin);
+        GameObject playerCollision = null;
+
+        switch (mostCollisions.playerId)
+        {
+            case 1:
+                playerCollision = Player1Text;
+                break;
+            case 2:
+                playerCollision = Player2Text;
+                break;
+            case 3:
+                playerCollision = Player3Text;
+                break;
+            case 4:
+                playerCollision = Player4Text;
+                break;
+        }
+
+        GameObject playerLeastMove = null;
+
+        switch (leastMove.playerId)
+        {
+            case 1:
+                playerLeastMove = Player1Text;
+                break;
+            case 2:
+                playerLeastMove = Player2Text;
+                break;
+            case 3:
+                playerLeastMove = Player3Text;
+                break;
+            case 4:
+                playerLeastMove = Player4Text;
+                break;
+        }
+
+        GameObject playerTerrible = null;
+        switch (leastPoints.playerId)
+        {
+            case 1:
+                playerTerrible = Player1Text;
+                break;
+            case 2:
+                playerTerrible = Player2Text;
+                break;
+            case 3:
+                playerTerrible = Player3Text;
+                break;
+            case 4:
+                playerTerrible = Player4Text;
+                break;
+        }
+
+        var go = Instantiate(TextPositions) as GameObject;
+
+        var winPos = GameObject.Find("WinPlayerPos").transform.position;
+        winPos = new Vector3(winPos.x, winPos.y, 20);
+        Instantiate(playerWin, winPos, Quaternion.identity);
+
+        var collPos = GameObject.Find("MariachiPlayerPos").transform.position;
+        collPos = new Vector3(collPos.x, collPos.y, 20);
+        Instantiate(playerCollision, collPos, Quaternion.identity);
+
+        var movePos = GameObject.Find("SiestaPlayerPos").transform.position;
+        movePos = new Vector3(movePos.x, movePos.y, 20);
+        Instantiate(playerLeastMove, movePos, Quaternion.identity);
+
+        var terriblePos = GameObject.Find("TerriblePlayerPos").transform.position;
+        terriblePos = new Vector3(terriblePos.x, terriblePos.y, 20);
+        Instantiate(playerTerrible, terriblePos, Quaternion.identity);
+     //   Instantiate(playerWin);
     }
 
 	public int GetBoxCount()

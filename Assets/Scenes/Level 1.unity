@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -411,7 +411,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 411728, guid: a7200ac61a00f8f47813d034591dd49c, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7200ac61a00f8f47813d034591dd49c, type: 2}
@@ -614,7 +614,7 @@ Transform:
   - {fileID: 373622136}
   - {fileID: 582455744}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!114 &55601710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 107490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 92937548}
@@ -709,6 +709,16 @@ GameObject:
   - 82: {fileID: 92937549}
   - 82: {fileID: 92937563}
   - 82: {fileID: 92937562}
+  - 82: {fileID: 92937573}
+  - 82: {fileID: 92937572}
+  - 82: {fileID: 92937571}
+  - 82: {fileID: 92937570}
+  - 82: {fileID: 92937569}
+  - 82: {fileID: 92937568}
+  - 82: {fileID: 92937567}
+  - 82: {fileID: 92937566}
+  - 82: {fileID: 92937565}
+  - 82: {fileID: 92937564}
   m_Layer: 0
   m_Name: GameLogic
   m_TagString: Untagged
@@ -720,7 +730,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -733,11 +743,11 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272096, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 56e074273eea85540b45cb2c7b30641d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b928bec71cfcc9f4db41cf509fc68e22, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -792,11 +802,11 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272094, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 37ccd7fa8a5e24049a8c24198753721d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b257eb3f98b02b94dae4a82c6aa6e547, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -851,11 +861,11 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272092, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 699254d7ba6255243870b983a484800f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 964e145ddf6cc2d469da037d6b3f759d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -910,11 +920,11 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272090, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 394854b8e68849840aa23bc4e54e14b9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 952994eed50540142b4225d9abfc35ad, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -969,7 +979,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272088, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1028,7 +1038,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272086, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1087,7 +1097,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11441578, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1101,7 +1111,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272084, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1160,7 +1170,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1219,7 +1229,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207488, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1278,7 +1288,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207486, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
@@ -1337,7 +1347,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1357,12 +1367,22 @@ MonoBehaviour:
   - {fileID: 92937549}
   - {fileID: 92937563}
   - {fileID: 92937562}
+  - {fileID: 92937573}
+  - {fileID: 92937572}
+  - {fileID: 92937571}
+  - {fileID: 92937570}
+  - {fileID: 92937569}
+  - {fileID: 92937568}
+  - {fileID: 92937567}
+  - {fileID: 92937566}
+  - {fileID: 92937565}
+  - {fileID: 92937564}
 --- !u!114 &92937561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11407488, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1372,20 +1392,25 @@ MonoBehaviour:
   NewLevelLoadDelay: 5
   UseCountDown: 1
   IsActive: 0
+  Player1Text: {fileID: 113406, guid: cbb59e65269be324aacd9140b9cc4c8a, type: 2}
+  Player2Text: {fileID: 199742, guid: fe699b12e50e90f4988e0465c664386e, type: 2}
+  Player3Text: {fileID: 197264, guid: 3b0940b674ae9534cac1f6066ff1e2e1, type: 2}
+  Player4Text: {fileID: 197154, guid: 9f4b223551c4cac4eaa2a006f8ca891c, type: 2}
+  TextPositions: {fileID: 109524, guid: 1593ebed65f74ee41972e71c5f2e92fa, type: 2}
   Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
   Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
   One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
-  Go: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
+  Go: {fileID: 151310, guid: 76205cfac33aaae4db57fae04f981363, type: 2}
 --- !u!82 &92937562
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8274412, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 13b95c4b265631c4185341dff7b1bd0a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 699254d7ba6255243870b983a484800f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1440,11 +1465,601 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8274414, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 884023109}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 394854b8e68849840aa23bc4e54e14b9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937564
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263366, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
   m_GameObject: {fileID: 92937547}
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 14e0077c1d139f74691e778583365c9e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937565
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263368, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 35c2bc3c691bd164e8704e603010d7fe, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937566
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263370, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 762dee8888f2bdb478df5d67511bb17f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937567
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263372, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: d29ca3b2455964b4e8cda513b134edb5, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937568
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263374, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 9f805ab1bc9f3624891cea930bb06d44, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937569
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263376, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: f8ecfbe7f8b48e742a167dcff9558a48, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937570
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263378, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 968db5d4fec1426438cce2f4c3610204, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937571
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263380, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 13b95c4b265631c4185341dff7b1bd0a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937572
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263382, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 56e074273eea85540b45cb2c7b30641d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &92937573
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8263384, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
+    type: 2}
+  m_PrefabInternal: {fileID: 2122625260}
+  m_GameObject: {fileID: 92937547}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 37ccd7fa8a5e24049a8c24198753721d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1693,7 +2308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -1799,7 +2414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -1949,7 +2564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2055,7 +2670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2161,7 +2776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2358,7 +2973,7 @@ Transform:
   - {fileID: 824955537}
   - {fileID: 514915836}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!114 &232972696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,7 +3156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2647,7 +3262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2797,7 +3412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -2903,7 +3518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3009,7 +3624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3115,7 +3730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3221,7 +3836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3431,7 +4046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3686,7 +4301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -3792,7 +4407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -3898,7 +4513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -4241,7 +4856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -4391,7 +5006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -4497,7 +5112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -4610,7 +5225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakingHits: 10
-  pointsForDestroying: 5
+  pointsForDestroying: 55
 --- !u!95 &494194185
 Animator:
   serializedVersion: 3
@@ -4661,7 +5276,7 @@ Transform:
   m_LocalScale: {x: .286407113, y: .286407083, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1001 &499584627
 Prefab:
   m_ObjectHideFlags: 0
@@ -4773,7 +5388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -4906,7 +5521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -5215,7 +5830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -5409,7 +6024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -5515,7 +6130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -5892,7 +6507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -6086,7 +6701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -6263,7 +6878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -6369,7 +6984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -6695,7 +7310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -6845,7 +7460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -6951,7 +7566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -7057,7 +7672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -7163,7 +7778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -7269,7 +7884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -7308,70 +7923,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 455426165}
   m_RootOrder: 14
---- !u!1001 &884023109
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1865481247}
-    m_Modifications:
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8207486, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8207488, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8207490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8272084, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 107490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_RootGameObject: {fileID: 92937547}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &926705156
 GameObject:
   m_ObjectHideFlags: 0
@@ -7406,7 +7957,7 @@ RectTransform:
   - {fileID: 825483677}
   - {fileID: 1532304860}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7536,7 +8087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -7686,7 +8237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -7792,7 +8343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -7898,7 +8449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -8004,7 +8555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -8110,7 +8661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -8314,7 +8865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -8464,7 +9015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -8614,7 +9165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -8808,7 +9359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -8958,7 +9509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -9064,7 +9615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -9170,7 +9721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -9503,7 +10054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -9653,7 +10204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -9931,7 +10482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -10037,7 +10588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -10399,7 +10950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -10549,7 +11100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -10655,7 +11206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -10856,7 +11407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -11228,7 +11779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -11449,7 +12000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -11643,7 +12194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -11749,7 +12300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -11899,7 +12450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -12210,7 +12761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 3
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -12316,7 +12867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -12582,7 +13133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -12688,7 +13239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -12838,7 +13389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -12988,7 +13539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -13138,7 +13689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -13244,7 +13795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -13394,7 +13945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -13673,7 +14224,7 @@ Transform:
   - {fileID: 1878400215}
   - {fileID: 1022462251}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &1844157825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13883,7 +14434,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.17999983
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -14454,7 +15005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -14631,7 +15182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -15018,7 +15569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -15168,7 +15719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -15274,7 +15825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 2
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -15469,7 +16020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
@@ -15575,7 +16126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 0}
   largeCrack: {fileID: 0}
   partical: {fileID: 0}
@@ -15656,6 +16207,50 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60be19dc6dfb6bc4ba7981060629cb2a, type: 2}
   m_RootGameObject: {fileID: 1779526724}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &2122625260
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1865481247}
+    m_Modifications:
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+  m_RootGameObject: {fileID: 92937547}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1001 &2125015230

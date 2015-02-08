@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 1
   unbreakable: 0
-  pointsForDestroying: 1
+  pointsForDestroying: 10
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
   partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}

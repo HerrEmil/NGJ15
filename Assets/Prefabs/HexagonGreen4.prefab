@@ -76,7 +76,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakingHits: 0
   unbreakable: 1
-  pointsForDestroying: 1
+  pointsForDestroying: 10
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
+  partical: {fileID: 0}
 --- !u!212 &21202050
 SpriteRenderer:
   m_ObjectHideFlags: 1

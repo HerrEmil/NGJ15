@@ -47,7 +47,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.55425763, y: .229946703, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1342,6 +1342,11 @@ MonoBehaviour:
   NewLevelLoadDelay: 5
   UseCountDown: 1
   IsActive: 0
+  Player1Text: {fileID: 113406, guid: cbb59e65269be324aacd9140b9cc4c8a, type: 2}
+  Player2Text: {fileID: 199742, guid: fe699b12e50e90f4988e0465c664386e, type: 2}
+  Player3Text: {fileID: 197264, guid: 3b0940b674ae9534cac1f6066ff1e2e1, type: 2}
+  Player4Text: {fileID: 197154, guid: 9f4b223551c4cac4eaa2a006f8ca891c, type: 2}
+  TextPositions: {fileID: 109524, guid: 1593ebed65f74ee41972e71c5f2e92fa, type: 2}
   Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
   Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
   One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
