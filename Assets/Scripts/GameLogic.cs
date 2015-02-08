@@ -57,7 +57,13 @@ public class GameLogic : MonoBehaviour {
 
 	public void EndLevel()
 	{
-		Invoke(Application.LoadLevel, NewLevelLoadDelay);
+		// Plays outtro music
+		SoundController.StopMusicClip(2);
+		
+		SoundController.PlayMusicClip(3);
+
+		// Loads next level
+		Invoke("Application.LoadLevel(Application.loadedLevel + 1)", NewLevelLoadDelay);
 	}
 
 	public int GetBoxCount()
