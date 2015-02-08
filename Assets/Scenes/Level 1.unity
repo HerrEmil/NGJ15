@@ -3070,7 +3070,7 @@ MonoBehaviour:
   spawnBall: {fileID: 1940158808}
   playerScript: {fileID: 356213060}
   player: 0
-  acceleration: 300
+  acceleration: 400
   topSpeed: 150
 --- !u!50 &356213058
 Rigidbody2D:
@@ -6971,6 +6971,10 @@ Prefab:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 107490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
   m_RootGameObject: {fileID: 92937547}
@@ -8530,6 +8534,14 @@ Prefab:
     - target: {fileID: 11400802, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: maxBalls
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
+      propertyPath: acceleration
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
+      propertyPath: topSpeed
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90c58749367638c4c845dee50e280792, type: 2}
@@ -11775,7 +11787,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: acceleration
-      value: 300
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: topSpeed
@@ -14609,5 +14621,5 @@ MonoBehaviour:
   spawnBall: {fileID: 1540596373}
   playerScript: {fileID: 2132096082}
   player: 1
-  acceleration: 1
-  topSpeed: 10
+  acceleration: 400
+  topSpeed: 150

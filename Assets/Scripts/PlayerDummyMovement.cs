@@ -104,37 +104,133 @@ public class PlayerDummyMovement : MonoBehaviour {
         {
             if (playerScript.GetNumberOfBalls() < playerScript.maxBalls)
             {
-                GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
-                b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
-                b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
-                playerScript.balls.Add(b);
+                ShootBall(lookVectorNormal);
             }
         }
 
         var lt = Input.GetAxis(prefix + "LT");
+        if (lt == 0)
+        {
+            if (prefix.Equals("P1_"))
+            {
+                if (Input.GetKey("right"))
+                {
+                    lt = 1;
+                }
+                if (Input.GetKey("left"))
+                {
+                    lt = -1;
+                }
+            }
+
+            if (prefix.Equals("P2_"))
+            {
+                if (Input.GetKey("e"))
+                {
+                    print("Yo P2 e");
+                    lt = 1;
+                }
+                if (Input.GetKey("q"))
+                {
+                    lt = -1;
+                }
+                if (Input.GetKeyDown("w"))
+                {
+                    ShootBall(lookVectorNormal);
+                }
+            }
+
+            if (prefix.Equals("P3_"))
+            {
+                if (Input.GetKey("n"))
+                {
+                    lt = 1;
+                }
+                if (Input.GetKey("v"))
+                {
+                    lt = -1;
+                }
+                if (Input.GetKeyDown("b"))
+                {
+                    ShootBall(lookVectorNormal);
+                }
+            }
+
+            if (prefix.Equals("P4_"))
+            {
+                if (Input.GetKey("p"))
+                {
+                    lt = 1;
+                }
+                if (Input.GetKey("i"))
+                {
+                    lt = -1;
+                }
+                if (Input.GetKeyDown("o"))
+                {
+                    ShootBall(lookVectorNormal);
+                }
+            }
+        }
+        
         if (ActiveInput(lt))
         {
             direction = Mathf.Sign(lt);
-            actualSpeed += acceleration * Mathf.Abs(lt) * Time.deltaTime;
+            var scale = 1f;
+            if (direction > 0 && actualSpeed < 0 || direction < 0 && actualSpeed > 0)
+            {
+                scale = 3f;
+            }
+            actualSpeed += scale * acceleration * lt * Time.deltaTime;
             if (actualSpeed > topSpeed)
             {
                 actualSpeed = topSpeed;
+            }
+            else if (actualSpeed < -topSpeed)
+            {
+                actualSpeed = -topSpeed;
             }
             
         }
         else
         {
-            actualSpeed -= 2 * acceleration * Time.deltaTime;
+            if (actualSpeed > 0)
+            {
+                actualSpeed -= acceleration * Time.deltaTime;
+                if (actualSpeed < 0)
+                {
+                    actualSpeed = 0;
+                }
+            }
+            else
+            {
+                actualSpeed += acceleration * Time.deltaTime;
+                if (actualSpeed > 0)
+                {
+                    actualSpeed = 0;
+                }
+            }
         }
-        if (actualSpeed > 0)
+        if (actualSpeed != 0)
         {
-            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), Time.deltaTime * actualSpeed * direction);
+            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), Time.deltaTime * actualSpeed);
         }
         else
         {
             actualSpeed = 0;
         }
 	}
+
+    private void ShootBall(Vector2 lookVectorNormal)
+    {
+        if (playerScript.GetNumberOfBalls() < playerScript.maxBalls)
+        {
+            GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
+            b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
+            b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+            playerScript.balls.Add(b);
+        }
+    }
 
     private bool ActiveInput(float input)
     {
