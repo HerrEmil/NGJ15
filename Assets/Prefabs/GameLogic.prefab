@@ -631,7 +631,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 13b95c4b265631c4185341dff7b1bd0a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -689,7 +689,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 14e0077c1d139f74691e778583365c9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -749,6 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01affed014e8f3a4ebbd231b8da01692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NewLevelLoadDelay: 5
 --- !u!114 &11407490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -771,6 +772,8 @@ MonoBehaviour:
   - {fileID: 8272092}
   - {fileID: 8272094}
   - {fileID: 8272096}
+  - {fileID: 8274414}
+  - {fileID: 8274412}
 --- !u!114 &11441578
 MonoBehaviour:
   m_ObjectHideFlags: 1

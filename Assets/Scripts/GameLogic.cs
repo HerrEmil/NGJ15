@@ -55,6 +55,19 @@ public class GameLogic : MonoBehaviour {
 		}
 	}
 
+	private void LoadNextLevel()
+	{
+		if(Application.loadedLevel < 2)
+		{
+			Application.LoadLevel(Application.loadedLevel + 1);
+		}
+		else
+		{
+			Application.LoadLevel (0);
+		}
+
+	}
+
 	public void EndLevel()
 	{
 		// Plays outtro music
@@ -62,8 +75,10 @@ public class GameLogic : MonoBehaviour {
 		
 		SoundController.PlayMusicClip(3);
 
+
+
 		// Loads next level
-		Invoke("Application.LoadLevel(Application.loadedLevel + 1)", NewLevelLoadDelay);
+		Invoke("LoadNextLevel", NewLevelLoadDelay);
 	}
 
 	public int GetBoxCount()
