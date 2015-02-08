@@ -182,7 +182,7 @@ Transform:
   - {fileID: 1982760828}
   - {fileID: 1657092878}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
 --- !u!114 &14452343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,14 +195,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f005e94f61a564f42947fe5675c8edf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerId: 1
+  playerId: 3
   playerColor: {r: 0, g: .650980413, b: .909803927, a: 1}
   pointsText: {fileID: 1206687649}
   padSmall: {fileID: 107100, guid: 24eda79405b774c49adf1d886596fd46, type: 2}
   padNormal: {fileID: 14452341}
   padLarge: {fileID: 102790, guid: 4b2d071fc21e71344aed417ede672398, type: 2}
   own: {fileID: 14452341}
-  maxBalls: 3
+  maxBalls: 1
   balls: []
 --- !u!61 &14452344
 BoxCollider2D:
@@ -392,7 +392,7 @@ Transform:
   - {fileID: 586793001}
   - {fileID: 1095460589}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!114 &24224646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,7 +412,7 @@ MonoBehaviour:
   padNormal: {fileID: 24224644}
   padLarge: {fileID: 102790, guid: 4b2d071fc21e71344aed417ede672398, type: 2}
   own: {fileID: 24224644}
-  maxBalls: 3
+  maxBalls: 1
   balls: []
 --- !u!61 &24224647
 BoxCollider2D:
@@ -3038,7 +3038,7 @@ MonoBehaviour:
   padNormal: {fileID: 349575392}
   padLarge: {fileID: 102790, guid: 4b2d071fc21e71344aed417ede672398, type: 2}
   own: {fileID: 349575392}
-  maxBalls: 3
+  maxBalls: 1
   balls: []
 --- !u!61 &349575394
 BoxCollider2D:
@@ -3103,7 +3103,7 @@ Transform:
   - {fileID: 1364655549}
   - {fileID: 654233920}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1 &349621396
 GameObject:
   m_ObjectHideFlags: 0
@@ -4706,7 +4706,7 @@ MonoBehaviour:
   padNormal: {fileID: 610901910}
   padLarge: {fileID: 102790, guid: 4b2d071fc21e71344aed417ede672398, type: 2}
   own: {fileID: 610901910}
-  maxBalls: 3
+  maxBalls: 1
   balls: []
 --- !u!61 &610901913
 BoxCollider2D:
@@ -14801,7 +14801,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: StageCenter
@@ -14822,6 +14822,14 @@ Prefab:
     - target: {fileID: 11400802, guid: 90c58749367638c4c845dee50e280792, type: 2}
       propertyPath: playerColor.b
       value: .909803927
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419506, guid: 90c58749367638c4c845dee50e280792, type: 2}
+      propertyPath: player
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 119506, guid: 90c58749367638c4c845dee50e280792, type: 2}
+      propertyPath: m_TagString
+      value: Player1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90c58749367638c4c845dee50e280792, type: 2}

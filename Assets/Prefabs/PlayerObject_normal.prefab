@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11400802}
   m_Layer: 8
   m_Name: PlayerObject_normal
-  m_TagString: Player1
+  m_TagString: Player3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,8 +79,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119506}
-  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
-  m_LocalPosition: {x: 9.81000042, y: .119999997, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0399999991, y: -5.03000021, z: 0}
   m_LocalScale: {x: .25999999, y: .25999999, z: 1}
   m_Children:
   - {fileID: 419508}
@@ -264,14 +264,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f005e94f61a564f42947fe5675c8edf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerId: 1
-  playerColor: {r: 1, g: 0, b: 0, a: 1}
+  playerId: 3
+  playerColor: {r: .949019611, g: .596078455, b: .749019623, a: 1}
   pointsText: {fileID: 0}
   padSmall: {fileID: 107100, guid: 24eda79405b774c49adf1d886596fd46, type: 2}
   padNormal: {fileID: 119506}
   padLarge: {fileID: 102790, guid: 4b2d071fc21e71344aed417ede672398, type: 2}
   own: {fileID: 119506}
-  maxBalls: 3
+  maxBalls: 1
   balls: []
 --- !u!114 &11419506
 MonoBehaviour:
@@ -291,7 +291,7 @@ MonoBehaviour:
   ball: {fileID: 180604, guid: 9359392ccd4791541b81cec528d0dd92, type: 2}
   spawnBall: {fileID: 422824}
   playerScript: {fileID: 11400802}
-  player: 0
+  player: 2
   acceleration: 400
   topSpeed: 150
 --- !u!114 &11419508
