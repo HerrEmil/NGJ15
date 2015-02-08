@@ -63,16 +63,16 @@ public class PlayerDummyMovement : MonoBehaviour {
 	void Update () 
 	{
         
-		float h = Input.GetAxis(prefix + "Horizontal");
-		float v = Input.GetAxis(prefix + "Vertical");
+        //float h = Input.GetAxis(prefix + "Horizontal");
+        //float v = Input.GetAxis(prefix + "Vertical");
 
-        Vector2 targetPos = new Vector2(h, v).normalized ;
-        var targetAngle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
+        //Vector2 targetPos = new Vector2(h, v).normalized ;
+        //var targetAngle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
         Vector3 lookVectorNormal = GetNormalVectorToCenter();
-        var currentPos = lookVectorNormal;
-        var currentAngle = Mathf.Atan2(currentPos.y, currentPos.x) * Mathf.Rad2Deg;
+        //var currentPos = lookVectorNormal;
+        //var currentAngle = Mathf.Atan2(currentPos.y, currentPos.x) * Mathf.Rad2Deg;
 
-        var difference = Mathf.DeltaAngle(currentAngle, targetAngle);
+        //var difference = Mathf.DeltaAngle(currentAngle, targetAngle);
         //print("Dif: " + difference);
 
         //if (difference > 1 || difference < -1)
@@ -98,7 +98,7 @@ public class PlayerDummyMovement : MonoBehaviour {
 
         //}
         
-        Vector3.Lerp(transform.position, lookVectorNormal * DesiredDistanceFromCenter, 1 * Time.deltaTime);
+     //   Vector3.Lerp(transform.position, lookVectorNormal * DesiredDistanceFromCenter, 1 * Time.deltaTime);
 
         if (Input.GetButtonDown(prefix + "Fire"))
         {
