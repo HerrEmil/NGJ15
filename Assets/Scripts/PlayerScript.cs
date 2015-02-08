@@ -72,6 +72,4 @@ public class PlayerScript : MonoBehaviour {
     {
         return (balls != null) ? balls.Count : 0;
     }
-
-
 }
