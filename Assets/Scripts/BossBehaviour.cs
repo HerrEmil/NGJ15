@@ -8,9 +8,15 @@ public class BossBehaviour : MonoBehaviour
 
     private Animator animator;
 
+	private GameLogic GameLogic;
+	private SoundController SoundController;
+
     void Start()
     {
         animator = GetComponent<Animator>();
+
+		GameLogic = GameObject.Find("GameLogic").GetComponent<GameLogic>();
+		SoundController = GameObject.Find("GameLogic").GetComponent<SoundController>();
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -39,6 +45,9 @@ public class BossBehaviour : MonoBehaviour
     }
     void Destroyed()
     {
+		SoundController.PlaySoundClip(7);
+
+		GameLogic.EndLevel();
 
         Destroy(this.gameObject);
     }

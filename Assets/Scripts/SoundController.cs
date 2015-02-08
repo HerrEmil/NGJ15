@@ -19,6 +19,8 @@ public class SoundController : MonoBehaviour {
 	 * 6 - Win
 	 * 7 - Hexagon breaks
 	 * 8 - Boss Dead
+	 * 9 - Boss hit 1
+	 * 10 - Boss hit 2
 	 * */
 
 	public AudioSource[] MusicClips;

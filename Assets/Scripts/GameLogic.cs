@@ -7,6 +7,7 @@ public class GameLogic : MonoBehaviour {
 	private static List<GameObject> Boxes;
 	private SoundController SoundController;
     public static float Radius = 6f;
+	public float NewLevelLoadDelay = 5f;
 
 	// Use this for initialization
 	void Start () 
@@ -52,6 +53,11 @@ public class GameLogic : MonoBehaviour {
 			
 			SoundController.PlayMusicClip(2);
 		}
+	}
+
+	public void EndLevel()
+	{
+		Invoke(Application.LoadLevel, NewLevelLoadDelay);
 	}
 
 	public int GetBoxCount()
