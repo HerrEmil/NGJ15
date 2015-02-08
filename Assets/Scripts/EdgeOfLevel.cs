@@ -3,9 +3,13 @@ using System.Collections;
 
 public class EdgeOfLevel : MonoBehaviour {
 
+	private SoundController SoundController;
+
     void Start()
     {
         gameObject.GetComponent<CircleCollider2D>().radius = GameLogic.Radius + 0.5f;
+
+		SoundController = GameObject.Find ("GameLogic").GetComponent<SoundController>();
     }
 
     void OnTriggerExit2D(Collider2D coll)
@@ -19,6 +23,8 @@ public class EdgeOfLevel : MonoBehaviour {
                 ResetSelectedHexagons(playerId);
             }
             bs.playerScript.balls.Remove(coll.gameObject);
+
+			SoundController.PlaySoundClip(2);
             
             Destroy(coll.gameObject);
         }

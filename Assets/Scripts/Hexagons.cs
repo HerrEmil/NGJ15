@@ -11,6 +11,7 @@ public class Hexagons : MonoBehaviour {
     private Color neutralColor;
 
 	private PowerupLogic PowerupLogic;
+	private SoundController SoundController;
 
     public int PlayerId { get; set; }
 
@@ -21,6 +22,7 @@ public class Hexagons : MonoBehaviour {
 
 		// Gets the powerup logic
 		PowerupLogic = GameObject.Find("GameLogic").GetComponent<PowerupLogic>();
+		SoundController = GameObject.Find ("GameLogic").GetComponent<SoundController>();
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -31,6 +33,8 @@ public class Hexagons : MonoBehaviour {
             {
                 var ballScript = coll.transform.GetComponent<BallScript>();
                 var ballID = ballScript.PlayerId;
+
+				SoundController.PlaySoundClip(Mathf.Abs(Random.Range(0,1)));
 
                 if (breakingHits != 0)
                 {
