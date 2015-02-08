@@ -334,6 +334,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &23857345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -541,6 +543,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &28747086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -688,6 +692,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &56451670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -950,6 +956,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &78369436
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1053,6 +1061,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &82790490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1156,6 +1166,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &94471151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1259,6 +1271,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &101943379
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1687,6 +1701,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &175370322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1878,6 +1894,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &196222585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1981,6 +1999,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &197008289
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2084,6 +2104,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &211551820
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2359,6 +2381,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &228331803
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2462,6 +2486,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &268456594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2737,6 +2763,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &303462591
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3025,6 +3053,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &324224412
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3320,6 +3350,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &349621402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3423,6 +3455,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &377763655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3526,6 +3560,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &392009505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3673,6 +3709,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &420187546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3952,6 +3990,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &511405209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4055,6 +4095,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &554846831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4235,6 +4277,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &568021683
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4338,6 +4382,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &569387941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4441,6 +4487,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &584544478
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4693,6 +4741,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &598727215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5286,6 +5336,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &723646190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5433,6 +5485,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &724917360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5695,6 +5749,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &762914309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5798,6 +5854,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &774489517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5901,6 +5959,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &775463432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6004,6 +6064,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &807726563
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6107,6 +6169,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &812777071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6254,6 +6318,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &821928501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6357,6 +6423,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &836195119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6717,6 +6785,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &911147902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6820,6 +6890,8 @@ MonoBehaviour:
   breakingHits: 2
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &911467517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6923,6 +6995,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &933742664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7058,6 +7132,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &949939498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7261,6 +7337,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &972851512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7364,6 +7442,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &989621247
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7658,6 +7738,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1075582245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7912,6 +7994,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1137731690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8059,6 +8143,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1155108708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8162,6 +8248,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1177389577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8265,6 +8353,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1190316547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8747,6 +8837,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1245205271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8812,50 +8904,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb14831ac61aeb540ae09dc91bd5c56d, type: 2}
   m_RootGameObject: {fileID: 228331798}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
---- !u!1001 &1291333109
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1865481247}
-    m_Modifications:
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_RootGameObject: {fileID: 1627316158}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &1295890524
@@ -8969,6 +9017,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1298568925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9160,6 +9210,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1348036228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9456,6 +9508,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1364931525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9479,6 +9533,50 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7b6df6e1427d6244a91a624d4d829432, type: 3}
   m_Color: {r: .984313726, g: .984313726, b: .984313726, a: 1}
+--- !u!1001 &1374837396
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1865481247}
+    m_Modifications:
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
+  m_RootGameObject: {fileID: 1627316158}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &1380593673
 Prefab:
   m_ObjectHideFlags: 0
@@ -9603,6 +9701,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1384307215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9706,6 +9806,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1386412301
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9853,6 +9955,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1419151499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9956,6 +10060,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1420506670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10059,6 +10165,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1424436728
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10333,6 +10441,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1469795631
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10702,6 +10812,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1520650083
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10805,6 +10917,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1525623985
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10908,6 +11022,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1542384884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11055,6 +11171,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1555263517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11158,6 +11276,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1566338612
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11261,6 +11381,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1581122102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11540,6 +11662,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1607817908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11611,7 +11735,7 @@ Prefab:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 107490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1627316172}
@@ -11642,7 +11766,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272096, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11701,7 +11825,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272094, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11760,7 +11884,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272092, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11819,7 +11943,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272090, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11878,7 +12002,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272088, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11937,7 +12061,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272086, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -11996,7 +12120,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11441578, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12010,7 +12134,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8272084, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -12069,7 +12193,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -12128,7 +12252,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207488, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -12187,7 +12311,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8207486, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
@@ -12246,7 +12370,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12264,23 +12388,32 @@ MonoBehaviour:
   - {fileID: 1627316161}
   - {fileID: 1627316160}
   - {fileID: 1627316159}
+  - {fileID: 1627316174}
+  - {fileID: 1627316173}
 --- !u!114 &1627316171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11407488, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01affed014e8f3a4ebbd231b8da01692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NewLevelLoadDelay: 5
+  UseCountDown: 1
+  IsActive: 0
+  Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
+  Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
+  One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
+  Go: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
 --- !u!4 &1627316172
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 407490, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558, type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -12293,12 +12426,12 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8274412, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 13b95c4b265631c4185341dff7b1bd0a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -12352,12 +12485,12 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8274414, guid: 85fbfb8fc2f0dbf4ab94dc9bf3055558,
     type: 2}
-  m_PrefabInternal: {fileID: 1291333109}
+  m_PrefabInternal: {fileID: 1374837396}
   m_GameObject: {fileID: 1627316158}
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 14e0077c1d139f74691e778583365c9e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -12735,6 +12868,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1704856444
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12909,6 +13044,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1734316067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13012,6 +13149,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1753482335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13115,6 +13254,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1762756821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13411,6 +13552,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1779290983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13514,6 +13657,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1781914851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13831,6 +13976,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1811753215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13934,6 +14081,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1814713103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14409,6 +14558,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1876754096
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14512,6 +14663,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1881180152
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14811,6 +14964,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1916190393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14914,6 +15069,8 @@ MonoBehaviour:
   breakingHits: 3
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1922795182
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15017,6 +15174,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1926189679
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15120,6 +15279,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1943044192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15223,6 +15384,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1944501435
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15326,6 +15489,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1947319615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15566,6 +15731,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &1986113709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15681,6 +15848,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &1994521726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15872,6 +16041,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &2016641783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16063,6 +16234,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &2084163953
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16166,6 +16339,8 @@ MonoBehaviour:
   breakingHits: 0
   unbreakable: 1
   pointsForDestroying: 1
+  smallCrack: {fileID: 0}
+  largeCrack: {fileID: 0}
 --- !u!212 &2093080977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16313,6 +16488,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
+  largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
 --- !u!212 &2115589216
 SpriteRenderer:
   m_ObjectHideFlags: 0

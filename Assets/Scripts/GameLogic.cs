@@ -9,6 +9,11 @@ public class GameLogic : MonoBehaviour {
     public static float Radius = 6f;
 	public float NewLevelLoadDelay = 5f;
 
+    public bool UseCountDown;
+    public bool IsActive;
+
+    public GameObject Three, Two, One, Go;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -27,8 +32,52 @@ public class GameLogic : MonoBehaviour {
 			// Adds all the start boxes to the more flexible Boxes array list
 			Boxes.Add(startBoxes[i]);
 		}
+        if (UseCountDown)
+        {
+            IsActive = false;
+            DoTheCountdown();
+        }
+        else
+        {
+            IsActive = true;
+        }
 	}
-	
+
+    public void DoTheCountdown()
+    {
+        StartCoroutine(ShowNumber(3));
+    }
+
+    private IEnumerator ShowNumber(int number)
+    {
+        print("Count " + number);
+        GameObject inst = null;
+        switch (number)
+        {
+            case 3:
+                inst = Three;
+                break;
+            case 2:
+                inst = Two;
+                break;
+            case 1:
+                inst = One;
+                break;
+            case 0:
+                IsActive = true;
+                inst = Go;
+                break;
+        }
+        GameObject go = Instantiate(inst, Vector3.zero, Quaternion.identity) as GameObject;
+        Destroy(go, 1);
+        yield return new WaitForSeconds(1);
+        if (number > 0)
+        {
+            StartCoroutine(ShowNumber(number - 1));
+        }
+       
+    }
+
 	// Update is called once per frame
 	void Update () {
 
@@ -55,6 +104,19 @@ public class GameLogic : MonoBehaviour {
 		}
 	}
 
+	private void LoadNextLevel()
+	{
+		if(Application.loadedLevel < 2)
+		{
+			Application.LoadLevel(Application.loadedLevel + 1);
+		}
+		else
+		{
+			Application.LoadLevel (0);
+		}
+
+	}
+
 	public void EndLevel()
 	{
 		// Plays outtro music
@@ -62,8 +124,10 @@ public class GameLogic : MonoBehaviour {
 		
 		SoundController.PlayMusicClip(3);
 
+
+
 		// Loads next level
-		Invoke("Application.LoadLevel(Application.loadedLevel + 1)", NewLevelLoadDelay);
+		Invoke("LoadNextLevel", NewLevelLoadDelay);
 	}
 
 	public int GetBoxCount()

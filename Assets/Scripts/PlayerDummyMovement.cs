@@ -20,10 +20,12 @@ public class PlayerDummyMovement : MonoBehaviour {
     public float acceleration = 1;
     public float topSpeed = 10;
     private float direction;
+    private GameLogic gameLogic;
 
 	// Use this for initialization
 	void Start () 
 	{
+        gameLogic = GameObject.Find("GameLogic").GetComponent<GameLogic>();
         DesiredDistanceFromCenter = GameLogic.Radius;
         switch (player)
         {
@@ -62,7 +64,10 @@ public class PlayerDummyMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-        
+        if (!gameLogic.IsActive)
+        {
+            return;
+        }
         //float h = Input.GetAxis(prefix + "Horizontal");
         //float v = Input.GetAxis(prefix + "Vertical");
 
