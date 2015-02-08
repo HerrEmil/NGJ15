@@ -22,6 +22,9 @@ public class PlayerDummyMovement : MonoBehaviour {
     private float direction;
     private GameLogic gameLogic;
 
+    private GameObject ballOnPad;
+    private bool ballIsOnPad;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -48,6 +51,7 @@ public class PlayerDummyMovement : MonoBehaviour {
 		Quaternion LookVector = Quaternion.LookRotation(lookVectorNormal);
 
 		transform.position = lookVectorNormal * (DesiredDistanceFromCenter);
+        ShowBallOnPad();
 	}
 
 	// Gets normalized vector between this object and stage center
@@ -104,6 +108,11 @@ public class PlayerDummyMovement : MonoBehaviour {
         //}
         
      //   Vector3.Lerp(transform.position, lookVectorNormal * DesiredDistanceFromCenter, 1 * Time.deltaTime);
+
+        if (ballIsOnPad)
+        {
+            ballOnPad.transform.position = spawnBall.position;
+        }
 
         if (Input.GetButtonDown(prefix + "Fire"))
         {
@@ -226,14 +235,30 @@ public class PlayerDummyMovement : MonoBehaviour {
         }
 	}
 
+    public void ShowBallOnPad()
+    {
+        if (playerScript.GetNumberOfBalls() < playerScript.maxBalls)
+        {
+            ballOnPad = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
+            ballOnPad.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+            ballOnPad.GetComponentInChildren<BallScript>().playerDummyMovement = this;
+            ballIsOnPad = true;
+        }
+    }
+
     private void ShootBall(Vector2 lookVectorNormal)
     {
         if (playerScript.GetNumberOfBalls() < playerScript.maxBalls)
         {
-            GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
-            b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
-            b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
-            playerScript.balls.Add(b);
+          //  GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
+            if (ballOnPad != null)
+            {
+                var b = ballOnPad;
+                b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
+              //  b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
+                playerScript.balls.Add(b);
+                ballIsOnPad = false;
+            }
         }
     }
 

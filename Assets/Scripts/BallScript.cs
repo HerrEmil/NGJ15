@@ -9,6 +9,8 @@ public class BallScript : MonoBehaviour
     public int PlayerId { get; set; }
     public Color PlayerColor { get; set; }
 
+    public PlayerDummyMovement playerDummyMovement;
+
     void Start()
     {
         //PlayerScript playerScript = player.GetComponent<PlayerScript>();

@@ -755,7 +755,7 @@ MonoBehaviour:
   Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
   Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
   One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
-  Go: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
+  Go: {fileID: 151310, guid: 76205cfac33aaae4db57fae04f981363, type: 2}
 --- !u!114 &11407490
 MonoBehaviour:
   m_ObjectHideFlags: 1
