@@ -24,6 +24,9 @@ public class BossBehaviour : MonoBehaviour
         if (coll.transform.tag.Equals("Ball"))
         {
             bool hit = animator.GetBool("OnHit");
+
+			SoundController.PlaySoundClip(Mathf.Abs(Random.Range(11,12)));
+
             if (hit != true)
             {
                 animator.SetBool("OnHit", true);

@@ -13,14 +13,17 @@ public class SoundController : MonoBehaviour {
 	 * Soundclips:
 	 * 0 - Hit ball 1
 	 * 1 - Hit ball 2
-	 * 3 - Miss ball
-	 * 4 - Powerup 1
-	 * 5 - Powerup 2
-	 * 6 - Win
-	 * 7 - Hexagon breaks
-	 * 8 - Boss Dead
-	 * 9 - Boss hit 1
-	 * 10 - Boss hit 2
+	 * 2 - Hit ball 3
+	 * 3 - Hit ball 4
+	 * 4 - Hit ball 5
+	 * 5 - Hit ball 6
+	 * 6 - Miss ball
+	 * 7 - Powerup 1
+	 * 8 - Powerup 2
+	 * 9 - Win
+	 * 10 - Boss Dead
+	 * 11 - Boss hit 1
+	 * 12 - Boss hit 2
 	 * */
 
 	public AudioSource[] MusicClips;

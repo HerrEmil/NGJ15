@@ -37,7 +37,7 @@ public class Hexagons : MonoBehaviour {
                 var ballScript = coll.transform.GetComponent<BallScript>();
                 var ballID = ballScript.PlayerId;
 
-				SoundController.PlaySoundClip(Mathf.Abs(Random.Range(0,1)));
+				SoundController.PlaySoundClip(Mathf.Abs(Random.Range(0,5)));
 
                 if (breakingHits != 0)
                 {
