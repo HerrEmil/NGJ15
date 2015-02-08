@@ -12,7 +12,6 @@ GameObject:
   - 114: {fileID: 11411186}
   - 50: {fileID: 5011186}
   - 60: {fileID: 6012890}
-  - 60: {fileID: 6011186}
   m_Layer: 0
   m_Name: HexagonYellow1
   m_TagString: Boxes
@@ -47,25 +46,6 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!60 &6011186
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 111186}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.0395207442, y: .0653647855}
-      - {x: -.0658082888, y: .031948451}
-      - {x: -.0634429902, y: -.0378025211}
-      - {x: -.0431735851, y: -.0565836765}
-      - {x: .0439818762, y: -.0595106967}
-      - {x: .0634429529, y: -.0462188609}
-      - {x: .0658082664, y: .047072947}
-      - {x: .0358083062, y: .0595107041}
 --- !u!60 &6012890
 PolygonCollider2D:
   m_ObjectHideFlags: 1
