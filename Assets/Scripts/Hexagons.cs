@@ -8,6 +8,7 @@ public class Hexagons : MonoBehaviour {
     public int pointsForDestroying = 1;
     public Sprite smallCrack;
     public Sprite largeCrack;
+    public Object partical;
 
     private bool canDestory = false;
     private Color neutralColor;
@@ -51,6 +52,7 @@ public class Hexagons : MonoBehaviour {
                 if (PlayerId.Equals(ballID) && canDestory)
                 {
                     AddPointsToPlayer();
+                    CreateParticels(ballScript.PlayerColor);
                     Destroyed();
                 }
                 else if (breakingHits == 0)
@@ -60,6 +62,12 @@ public class Hexagons : MonoBehaviour {
                 }
             }
         }
+    }
+
+    private void CreateParticels(Color color)
+    {
+        GameObject particel = (GameObject)Instantiate(partical, this.transform.position, Quaternion.identity);
+        particel.GetComponent<ParticleSystem>().startColor = color;
     }
 
     private void BreakingSomeMore()

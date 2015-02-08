@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.610000014, y: -2.22000003, z: 0}
+  m_LocalPosition: {x: .627326727, y: -.894472718, z: 0}
   m_LocalScale: {x: .25, y: .25, z: .25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,6 +79,7 @@ MonoBehaviour:
   pointsForDestroying: 1
   smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
   largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
+  partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
 --- !u!212 &21240688
 SpriteRenderer:
   m_ObjectHideFlags: 1
