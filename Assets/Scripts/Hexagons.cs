@@ -96,7 +96,7 @@ public class Hexagons : MonoBehaviour {
     void Destroyed()
     {
 		PowerupLogic.RunPowerup(transform.position);
-		SoundController.PlaySoundClip(6);
+		SoundController.PlaySoundClip(17);
 
         Destroy(this.gameObject);
     }

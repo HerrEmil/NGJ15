@@ -56,14 +56,18 @@ public class GameLogic : MonoBehaviour {
         {
             case 3:
                 inst = Three;
+				SoundController.PlaySoundClip(15);
                 break;
             case 2:
                 inst = Two;
+				SoundController.PlaySoundClip(14);
                 break;
             case 1:
                 inst = One;
+				SoundController.PlaySoundClip(13);
                 break;
             case 0:
+				SoundController.PlaySoundClip(16);
                 IsActive = true;
                 inst = Go;
                 break;
@@ -120,11 +124,13 @@ public class GameLogic : MonoBehaviour {
 	public void EndLevel()
 	{
 		// Plays outtro music
+		SoundController.StopMusicClip(0);
+		SoundController.StopMusicClip(1);
 		SoundController.StopMusicClip(2);
 		
 		SoundController.PlayMusicClip(3);
 
-
+		SoundController.PlaySoundClip(9);
 
 		// Loads next level
 		Invoke("LoadNextLevel", NewLevelLoadDelay);

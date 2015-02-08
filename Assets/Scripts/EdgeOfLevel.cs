@@ -24,7 +24,7 @@ public class EdgeOfLevel : MonoBehaviour {
             }
             bs.playerScript.balls.Remove(coll.gameObject);
 
-			SoundController.PlaySoundClip(2);
+			SoundController.PlaySoundClip(6);
             
             Destroy(coll.gameObject);
         }

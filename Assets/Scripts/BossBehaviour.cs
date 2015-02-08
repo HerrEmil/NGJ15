@@ -25,6 +25,7 @@ public class BossBehaviour : MonoBehaviour
         {
             bool hit = animator.GetBool("OnHit");
 
+			// Boss hit sounds
 			SoundController.PlaySoundClip(Mathf.Abs(Random.Range(11,12)));
 
             if (hit != true)

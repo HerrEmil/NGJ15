@@ -24,6 +24,11 @@ public class SoundController : MonoBehaviour {
 	 * 10 - Boss Dead
 	 * 11 - Boss hit 1
 	 * 12 - Boss hit 2
+	 * 13 - Count 1
+	 * 14 - Count 2
+	 * 15 - Count 3
+	 * 16 - Fight
+	 * 17 - Hexagon breaks
 	 * */
 
 	public AudioSource[] MusicClips;
