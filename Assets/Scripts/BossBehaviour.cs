@@ -3,6 +3,8 @@ using System.Collections;
 
 public class BossBehaviour : MonoBehaviour
 {
+    public int breakingHits = 0;
+    public int pointsForDestroying = 5;
 
     private Animator animator;
 
@@ -19,14 +21,38 @@ public class BossBehaviour : MonoBehaviour
             if (hit != true)
             {
                 animator.SetBool("OnHit", true);
-                //Wait();
+            }
+
+            if (breakingHits != 0)
+            {
+                breakingHits--;
+            }
+            
+            if (breakingHits == 0)
+            {
+                var ballScript = coll.transform.GetComponent<BallScript>();
+                var ballID = ballScript.PlayerId;
+                AddPointsToPlayer(ballID);
+                Destroyed();
             }
         }
     }
+    void Destroyed()
+    {
 
-    //IEnumerator Wait()
-    //{
-    //    yield return new WaitForSeconds(1);
-    //    animator.SetBool("OnHit", false);
-    //}
+        Destroy(this.gameObject);
+    }
+
+    void AddPointsToPlayer(int playerId)
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player" + playerId);
+        if (player != null)
+        {
+            PlayerScript script = player.GetComponent<PlayerScript>();
+            if (script != null)
+            {
+                script.IncreasePoints(pointsForDestroying);
+            }
+        }
+    }
 }
