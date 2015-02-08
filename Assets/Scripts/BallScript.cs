@@ -11,6 +11,8 @@ public class BallScript : MonoBehaviour
 
     public PlayerDummyMovement playerDummyMovement;
 
+    private float startTime;
+
     void Start()
     {
         //PlayerScript playerScript = player.GetComponent<PlayerScript>();
@@ -26,5 +28,15 @@ public class BallScript : MonoBehaviour
         PlayerId = playerScript.playerId;
         PlayerColor = playerScript.playerColor;
         GetComponent<SpriteRenderer>().color = PlayerColor;
+    }
+
+    public void StartTime()
+    {
+        startTime = Time.time;
+    }
+
+    public float GetLiveTime()
+    {
+        return Time.time - startTime;
     }
 }
