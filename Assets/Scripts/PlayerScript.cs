@@ -16,6 +16,10 @@ public class PlayerScript : MonoBehaviour {
 
     private int playerPoints = 0;
 
+    private int playerDeaths = 0;
+    private float longestStreak = 0f;
+    private float distanceMoved = 0f;
+
     void Start()
     {
         Sprite smallSprite = null, normalSprite = null, largeSprite = null;
@@ -71,5 +75,23 @@ public class PlayerScript : MonoBehaviour {
     public int GetNumberOfBalls()
     {
         return (balls != null) ? balls.Count : 0;
+    }
+
+    public void IncrementDeaths()
+    {
+        playerDeaths++;
+    }
+
+    public void UpdateLongestStreak(float streak)
+    {
+        if (streak > longestStreak)
+        {
+            longestStreak = streak;
+        }
+    }
+
+    public void IncrementDistanceMoved(float dist)
+    {
+        this.distanceMoved += dist;
     }
 }

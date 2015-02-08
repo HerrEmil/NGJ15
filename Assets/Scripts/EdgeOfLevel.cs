@@ -24,6 +24,10 @@ public class EdgeOfLevel : MonoBehaviour {
             }
             bs.playerScript.balls.Remove(coll.gameObject);
             bs.playerDummyMovement.ShowBallOnPad();
+            float streak = bs.GetLiveTime();
+
+            bs.playerScript.IncrementDeaths();
+            bs.playerScript.UpdateLongestStreak(streak);
 
 			SoundController.PlaySoundClip(6);
             

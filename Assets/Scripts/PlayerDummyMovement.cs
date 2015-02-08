@@ -227,7 +227,9 @@ public class PlayerDummyMovement : MonoBehaviour {
         }
         if (actualSpeed != 0)
         {
-            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), Time.deltaTime * actualSpeed);
+            var move = Time.deltaTime * actualSpeed;
+            playerScript.IncrementDistanceMoved(Mathf.Abs(move));
+            transform.RotateAround(StageCenter.transform.position, new Vector3(0, 0, 1), move);
         }
         else
         {
@@ -253,11 +255,14 @@ public class PlayerDummyMovement : MonoBehaviour {
           //  GameObject b = Instantiate(ball, spawnBall.position, Quaternion.identity) as GameObject;
             if (ballOnPad != null)
             {
-                var b = ballOnPad;
-                b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
-              //  b.GetComponentInChildren<BallScript>().SetPlayerScript(playerScript);
-                playerScript.balls.Add(b);
-                ballIsOnPad = false;
+                if (ballIsOnPad)
+                {
+                    var b = ballOnPad;
+                    b.GetComponentInChildren<BallMovement>().SetInitialVelocity(-lookVectorNormal);
+                    b.GetComponentInChildren<BallScript>().StartTime();
+                    playerScript.balls.Add(b);
+                    ballIsOnPad = false;
+                }
             }
         }
     }
