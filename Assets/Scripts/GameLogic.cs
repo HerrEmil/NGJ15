@@ -12,7 +12,7 @@ public class GameLogic : MonoBehaviour {
     public bool UseCountDown;
     public bool IsActive;
 
-    public Sprite Three, Two, One, Go;
+    public GameObject Three, Two, One, Go;
 
 	// Use this for initialization
 	void Start () 
@@ -51,7 +51,7 @@ public class GameLogic : MonoBehaviour {
     private IEnumerator ShowNumber(int number)
     {
         print("Count " + number);
-        Sprite inst = null;
+        GameObject inst = null;
         switch (number)
         {
             case 3:
@@ -69,7 +69,7 @@ public class GameLogic : MonoBehaviour {
                 break;
         }
         GameObject go = Instantiate(inst, Vector3.zero, Quaternion.identity) as GameObject;
-        
+        Destroy(go, 1);
         yield return new WaitForSeconds(1);
         if (number > 0)
         {
