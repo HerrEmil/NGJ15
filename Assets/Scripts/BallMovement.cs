@@ -18,15 +18,21 @@ public class BallMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (checkTimer < 0 && rigidbody2D.velocity.magnitude > maxSpeed)
+        var speed = rigidbody2D.velocity.magnitude;
+        if (speed > 0.001 && speed < 2)
         {
-           // print("velocity over maxSpeed");
-            collider2D.sharedMaterial = steadyBounce;
-            collider2D.enabled = false;
-            collider2D.enabled = true;
-            checkTimer = 1;
+           rigidbody2D.velocity = rigidbody2D.velocity.normalized * speed;
         }
-        checkTimer -= Time.deltaTime;
+
+        //if (checkTimer < 0 && rigidbody2D.velocity.magnitude > maxSpeed)
+        //{
+        //   // print("velocity over maxSpeed");
+        //    collider2D.sharedMaterial = steadyBounce;
+        //    collider2D.enabled = false;
+        //    collider2D.enabled = true;
+        //    checkTimer = 1;
+        //}
+        //checkTimer -= Time.deltaTime;
 	}
 
     public void SetInitialVelocity(Vector2 direction)

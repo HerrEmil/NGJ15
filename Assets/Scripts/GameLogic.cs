@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class GameLogic : MonoBehaviour {
 
@@ -11,6 +12,8 @@ public class GameLogic : MonoBehaviour {
 
     public bool UseCountDown;
     public bool IsActive;
+
+    public GameObject Player1Text, Player2Text, Player3Text, Player4Text, Airball, Dropped, Fantastico, Hold, Mariachi, Siesta, Speedy, Survivor, Terrible;
 
     public GameObject Three, Two, One, Go;
 
@@ -133,9 +136,53 @@ public class GameLogic : MonoBehaviour {
 
 		SoundController.PlaySoundClip(9);
 
+        ShowCrazyTexts();
+
 		// Loads next level
 		Invoke("LoadNextLevel", NewLevelLoadDelay);
 	}
+
+    private void ShowCrazyTexts()
+    {
+        PlayerScript p1, p2, p3, p4;
+        p1 = GameObject.FindGameObjectWithTag("Player1").GetComponent<PlayerScript>();
+        p2 = GameObject.FindGameObjectWithTag("Player2").GetComponent<PlayerScript>();
+        p3 = GameObject.FindGameObjectWithTag("Player3").GetComponent<PlayerScript>();
+        p4 = GameObject.FindGameObjectWithTag("Player4").GetComponent<PlayerScript>();
+
+        PlayerScript[] players = new PlayerScript[] { p1, p2, p3, p4 };
+
+        var mostMove = players.Aggregate((i1, i2) => i1.DistanceMoved > i2.DistanceMoved ? i1 : i2);
+        var leastMove = players.Aggregate((i1, i2) => i1.DistanceMoved < i2.DistanceMoved ? i1 : i2);
+
+        var mostPoints = players.Aggregate((i1, i2) => i1.Points > i2.Points ? i1 : i2);
+        var leastPoints = players.Aggregate((i1, i2) => i1.Points < i2.Points ? i1 : i2);
+
+        var mostDeaths = players.Aggregate((i1, i2) => i1.PlayerDeaths > i2.PlayerDeaths ? i1 : i2);
+        var leastDeaths = players.Aggregate((i1, i2) => i1.PlayerDeaths < i2.PlayerDeaths ? i1 : i2);
+
+        var mostCollisions = players.Aggregate((i1, i2) => i1.NumberOfBounces > i2.NumberOfBounces ? i1 : i2);
+        var leastCollisions = players.Aggregate((i1, i2) => i1.NumberOfBounces < i2.NumberOfBounces ? i1 : i2);
+
+        GameObject playerWin = null;
+        switch (mostPoints.playerId)
+        {
+            case 1:
+                playerWin = Player1Text;
+                break;
+            case 2:
+                playerWin = Player2Text;
+                break;
+            case 3:
+                playerWin = Player3Text;
+                break;
+            case 4:
+                playerWin = Player4Text;
+                break;
+        }
+
+        Instantiate(playerWin);
+    }
 
 	public int GetBoxCount()
 	{

@@ -39,4 +39,9 @@ public class BallScript : MonoBehaviour
     {
         return Time.time - startTime;
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        playerScript.IncrementBounces();
+    }
 }

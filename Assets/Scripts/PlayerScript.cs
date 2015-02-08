@@ -20,6 +20,14 @@ public class PlayerScript : MonoBehaviour {
     private float longestStreak = 0f;
     private float distanceMoved = 0f;
 
+    private int numberOfBounces = 0;
+
+    public int PlayerDeaths { get { return playerDeaths; } }
+    public float LongestStreak { get { return longestStreak; } }
+    public float DistanceMoved { get { return distanceMoved; } }
+    public int NumberOfBounces { get { return numberOfBounces; } }
+    public int Points { get { return playerPoints; } }
+
     void Start()
     {
         Sprite smallSprite = null, normalSprite = null, largeSprite = null;
@@ -93,5 +101,10 @@ public class PlayerScript : MonoBehaviour {
     public void IncrementDistanceMoved(float dist)
     {
         this.distanceMoved += dist;
+    }
+
+    public void IncrementBounces()
+    {
+        this.numberOfBounces++;
     }
 }
