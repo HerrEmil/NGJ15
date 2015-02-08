@@ -3,7 +3,23 @@ using System.Collections;
 
 public class SoundController : MonoBehaviour {
 
-	//private GameLogic GameLogic;
+	/*
+	 * Music clips:
+	 * 0 - Nordic Games Jam 2015 - Theme 1
+	 * 1 - Nordic Games Jam 2015 - Theme 2
+	 * 2 - Nordic Games Jam 2015 - Theme 3
+	 * 3 - Nordic Games Jam 2015 - Theme 3 end
+	 * 
+	 * Soundclips:
+	 * 0 - Hit ball 1
+	 * 1 - Hit ball 2
+	 * 3 - Miss ball
+	 * 4 - Powerup 1
+	 * 5 - Powerup 2
+	 * 6 - Win
+	 * 7 - Hexagon breaks
+	 * 8 - Boss Dead
+	 * */
 
 	public AudioSource[] MusicClips;
 	public AudioSource[] SoundClips;
@@ -14,7 +30,7 @@ public class SoundController : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		//GameLogic = GetComponent<GameLogic>();
+
 	}
 	
 	// Update is called once per frame
