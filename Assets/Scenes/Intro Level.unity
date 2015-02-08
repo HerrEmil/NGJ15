@@ -947,7 +947,7 @@ MonoBehaviour:
   Three: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
   Two: {fileID: 122482, guid: 19069a56d54987249b830f20ab4b0b89, type: 2}
   One: {fileID: 116084, guid: 95bce0d2ae9a6f748983d09c3dc76b6c, type: 2}
-  Go: {fileID: 117736, guid: 63fba679a7896e240a74d4f3815dfef5, type: 2}
+  Go: {fileID: 151310, guid: 76205cfac33aaae4db57fae04f981363, type: 2}
 --- !u!82 &92937562
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2252,7 +2252,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 9b21fb528c69c4526bd19abf2ffadb53, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85c7efc3b4ae632459c31af234e7a015, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1466288886
 Transform:
