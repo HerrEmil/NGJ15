@@ -79,6 +79,7 @@ MonoBehaviour:
   pointsForDestroying: 1
   smallCrack: {fileID: 21300000, guid: fe49c3df6be4381499a81b2b55d96784, type: 3}
   largeCrack: {fileID: 21300000, guid: 2ae14d70e5736854890bebb33e1d4ad8, type: 3}
+  partical: {fileID: 194014, guid: f635e4fe28ff72547b53221e109d0f07, type: 2}
 --- !u!212 &21266684
 SpriteRenderer:
   m_ObjectHideFlags: 1
