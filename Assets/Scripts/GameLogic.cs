@@ -50,6 +50,7 @@ public class GameLogic : MonoBehaviour {
 
     private IEnumerator ShowNumber(int number)
     {
+        var time = 0.6f;
         print("Count " + number);
         GameObject inst = null;
         switch (number)
@@ -69,8 +70,8 @@ public class GameLogic : MonoBehaviour {
                 break;
         }
         GameObject go = Instantiate(inst, Vector3.zero, Quaternion.identity) as GameObject;
-        Destroy(go, 1);
-        yield return new WaitForSeconds(1);
+        Destroy(go, time);
+        yield return new WaitForSeconds(time);
         if (number > 0)
         {
             StartCoroutine(ShowNumber(number - 1));

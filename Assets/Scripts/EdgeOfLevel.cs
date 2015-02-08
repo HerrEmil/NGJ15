@@ -23,6 +23,7 @@ public class EdgeOfLevel : MonoBehaviour {
                 ResetSelectedHexagons(playerId);
             }
             bs.playerScript.balls.Remove(coll.gameObject);
+            bs.playerDummyMovement.ShowBallOnPad();
 
 			SoundController.PlaySoundClip(2);
             
