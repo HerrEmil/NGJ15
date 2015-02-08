@@ -77,6 +77,8 @@ MonoBehaviour:
   breakingHits: 1
   unbreakable: 0
   pointsForDestroying: 1
+  smallCrack: {fileID: 21300000, guid: b2def8fca59feac46985c8f13d52e613, type: 3}
+  largeCrack: {fileID: 21300000, guid: 6661c4e2012faed4f9e79ee6d398f26e, type: 3}
 --- !u!212 &21210868
 SpriteRenderer:
   m_ObjectHideFlags: 1

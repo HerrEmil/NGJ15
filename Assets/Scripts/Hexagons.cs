@@ -6,6 +6,8 @@ public class Hexagons : MonoBehaviour {
     public int breakingHits;
     public bool unbreakable = false;
     public int pointsForDestroying = 1;
+    public Sprite smallCrack;
+    public Sprite largeCrack;
 
     private bool canDestory = false;
     private Color neutralColor;
@@ -51,7 +53,7 @@ public class Hexagons : MonoBehaviour {
                     AddPointsToPlayer();
                     Destroyed();
                 }
-                else
+                else if (breakingHits == 0)
                 {
                     PlayerId = ballID;
                     ChangeBoxColor(ballScript.PlayerColor);
@@ -62,7 +64,14 @@ public class Hexagons : MonoBehaviour {
 
     private void BreakingSomeMore()
     {
-        
+        if (breakingHits == 2)
+        {
+            GetComponent<SpriteRenderer>().sprite = smallCrack;
+        }
+        else if (breakingHits == 1)
+        {
+            GetComponent<SpriteRenderer>().sprite = largeCrack;
+        }
     }
 
     public void ResetToNeutral()
