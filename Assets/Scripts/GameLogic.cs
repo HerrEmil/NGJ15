@@ -9,6 +9,11 @@ public class GameLogic : MonoBehaviour {
     public static float Radius = 6f;
 	public float NewLevelLoadDelay = 5f;
 
+    public bool UseCountDown;
+    public bool IsActive;
+
+    public Sprite Three, Two, One, Go;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -27,8 +32,49 @@ public class GameLogic : MonoBehaviour {
 			// Adds all the start boxes to the more flexible Boxes array list
 			Boxes.Add(startBoxes[i]);
 		}
+        if (UseCountDown)
+        {
+            IsActive = false;
+            DoTheCountdown();
+        }
+        else
+        {
+            IsActive = true;
+        }
 	}
-	
+
+    public void DoTheCountdown()
+    {
+        StartCoroutine(ShowNumber(3));
+    }
+
+    private IEnumerator ShowNumber(int number)
+    {
+        print("Count " + number);
+        switch (number)
+        {
+            case 3:
+
+                break;
+            case 2:
+
+                break;
+            case 1:
+
+                break;
+        }
+        yield return new WaitForSeconds(1);
+        if (number > 1)
+        {
+            StartCoroutine(ShowNumber(number - 1));
+        }
+        else
+        {
+            IsActive = true;
+            print("GO!");
+        }
+    }
+
 	// Update is called once per frame
 	void Update () {
 
