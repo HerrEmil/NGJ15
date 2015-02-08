@@ -51,28 +51,31 @@ public class GameLogic : MonoBehaviour {
     private IEnumerator ShowNumber(int number)
     {
         print("Count " + number);
+        Sprite inst = null;
         switch (number)
         {
             case 3:
-
+                inst = Three;
                 break;
             case 2:
-
+                inst = Two;
                 break;
             case 1:
-
+                inst = One;
+                break;
+            case 0:
+                IsActive = true;
+                inst = Go;
                 break;
         }
+        GameObject go = Instantiate(inst, Vector3.zero, Quaternion.identity) as GameObject;
+        
         yield return new WaitForSeconds(1);
-        if (number > 1)
+        if (number > 0)
         {
             StartCoroutine(ShowNumber(number - 1));
         }
-        else
-        {
-            IsActive = true;
-            print("GO!");
-        }
+       
     }
 
 	// Update is called once per frame
