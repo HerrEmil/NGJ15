@@ -1,27 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BallMovement : MonoBehaviour {
+public class BallMovement : MonoBehaviour
+{
 
     public float speed = 3.0f;
     public float maxSpeed = 8f;
     public PhysicsMaterial2D steadyBounce;
     private bool maxSpeedReached;
     private float checkTimer;
-	// Use this for initialization
+
+    // Use this for initialization
     void Start()
     {
         // Give the ball some initial movement direction
-       // SetInitialVelocity(Vector2.one);
-        
+        // SetInitialVelocity(Vector2.one);
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-        var speed = rigidbody2D.velocity.magnitude;
+
+    // Update is called once per frame
+    void Update()
+    {
+        var speed = GetComponent<Rigidbody2D>().velocity.magnitude;
         if (speed > 0.001 && speed < 2)
         {
-           rigidbody2D.velocity = rigidbody2D.velocity.normalized * speed;
+            GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity.normalized * speed;
         }
 
         //if (checkTimer < 0 && rigidbody2D.velocity.magnitude > maxSpeed)
@@ -33,11 +36,11 @@ public class BallMovement : MonoBehaviour {
         //    checkTimer = 1;
         //}
         //checkTimer -= Time.deltaTime;
-	}
+    }
 
     public void SetInitialVelocity(Vector2 direction)
     {
-        rigidbody2D.velocity = direction.normalized * speed;
+        GetComponent<Rigidbody2D>().velocity = direction.normalized * speed;
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -63,7 +66,7 @@ public class BallMovement : MonoBehaviour {
         //    rigidbody2D.velocity = dir * speed;
         //}
 
-       
+
     }
 
     float hitFactor(Vector2 ballPos, Vector2 racketPos,
